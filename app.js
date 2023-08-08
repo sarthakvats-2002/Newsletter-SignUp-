@@ -33,7 +33,7 @@ const data={
 };
 
 const jsonData= JSON.stringify(data);
-const url= "https://us13.api.mailchimp.com/3.0/lists/2cf9fa4737";
+const url= "116e518e1738d175384a41e97c854083-us13";
 
 const options={
   method: "POST",
@@ -66,5 +66,4 @@ app.listen(process.env.PORT || 3000, function(){
   console.log("Server is running on port 3000");
 });
 
-// 718afd0416b6f4fe76f21cfb779d366f-us13
 // 2cf9fa4737
